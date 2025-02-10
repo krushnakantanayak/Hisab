@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hisab/todo/model/todo_model.dart';
+import 'package:hisab/model/todo_model.dart';
 
 class TodoProvider extends ChangeNotifier {
   final List<Todo> _todos = [];

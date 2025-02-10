@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hisab/auth/auth_provider.dart';
-import 'package:hisab/home_page.dart';
+import 'package:hisab/provider/auth_provider.dart';
+import 'package:hisab/pages/home_page.dart';
 
 import 'package:provider/provider.dart';
 

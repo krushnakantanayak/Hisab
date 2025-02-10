@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hisab/bottom_nav_bar.dart';
-import 'package:hisab/profile_page.dart';
-import 'todo/todo_page.dart';
-import 'pages/calculator_page.dart';
+import 'package:hisab/widgets/bottom_nav_bar.dart';
+import 'package:hisab/pages/profile_page.dart';
+import 'todo_page.dart';
+import 'calculator_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

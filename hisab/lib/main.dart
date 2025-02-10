@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hisab/auth/auth_provider.dart';
-import 'package:hisab/home_page.dart';
+import 'package:hisab/provider/auth_provider.dart';
+import 'package:hisab/pages/home_page.dart';
 import 'package:hisab/provider/calculator_provider.dart';
 
 import 'package:hisab/pages/login_page.dart';
-import 'package:hisab/todo/todo_provider.dart';
+import 'package:hisab/provider/todo_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() {

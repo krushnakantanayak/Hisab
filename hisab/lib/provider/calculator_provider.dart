@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hisab/calculator/model/%20item_model.dart';
+import 'package:hisab/model/%20item_model.dart';
 
 class CalculatorProvider extends ChangeNotifier {
   final List<Item> _items = [];
