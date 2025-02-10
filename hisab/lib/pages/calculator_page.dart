@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hisab/calculator/calculator_provider.dart';
+import 'package:hisab/provider/calculator_provider.dart';
 import 'package:provider/provider.dart';
 
 class CalculatorPage extends StatefulWidget {
@@ -98,7 +98,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
                       setState(() {
                         calculatorProvider.removeItem(index);
                         _priceControllers.removeAt(index);
-                      }); // Refresh UI
+                      });
                     },
                     child: Card(
                       margin: const EdgeInsets.symmetric(vertical: 5),
